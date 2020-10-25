@@ -5,3 +5,9 @@ def index(request):
 
 def login(request):
     return render(request,'morsecodegeneration/login.html')
+
+def mainpage(request):
+    return render(request,'morsecodegeneration/mainpage.html')
+
+def contactus(request):
+    return render(request,'morsecodegeneration/contactus.html')
